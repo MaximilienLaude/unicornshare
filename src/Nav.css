@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.filterList{
+    padding: 1%;
+    display: flex;
+
+    align-items: center;
+    background: hsla(31, 100%, 50%, 1);
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+
+.filters{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 5%;
+  
+}
+
+.fanta-logo{
+    height: 75px;
+    width: 120px;
+}
+.logo{
+    display: flex;
+    width: 10%;
+}
+
+.nav{
+    margin-left: 3%;
+    margin-right: 15%;
+}
+
+.upload{
+    width: 10%;
+}
+
+.ligne{
+    width:5px;
+    border-left:2px solid red;
+    height:70px;
+}
+
+li{
+    list-style: none;
+    margin-left: 2%;
+}
+
+.upload{
+    position: absolute;
+    right: 0.2%;
+    width: 10%;
+}
+
+.button{
+    border: none;
+    border-radius: 50%;
+}
+
+@media all and (max-width: 750px)
+{
+    .upload{
+        width: 10%;
+    }
+    .canette{
+        width: 40px;
+        height:40px;
+    }
+
+    .nav{
+        width: 65%;
+        font-size: 0.7em;
+    }
+}
+
+

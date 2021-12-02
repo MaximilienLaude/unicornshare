@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fanta{
+    background-color: hsla(31, 100%, 50%, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+.logo-coca{
+    justify-content: center;
+}
+
+.icon1{
+    height: 30px;
+}
+
+.icon2{
+    height: 45px;
+}

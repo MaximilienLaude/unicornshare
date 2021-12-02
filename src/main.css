@@ -1,0 +1,15 @@
+.mainConteneur{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    
+}
+
+.gallery{
+    width: 100%;
+}
+
+.imageSponsor{
+    width: 20%;
+    height: 20%;
+}
